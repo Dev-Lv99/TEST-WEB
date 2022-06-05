@@ -6,18 +6,40 @@
   <title>TESTING WEB - HOME</title>
   <meta charset="utf-8">
   <style>
-  p.f1 {font-size: 30px;}
-  ol.f1 {font-size: 25px;}
+  div.head {
+    font-size: 30px;
+    position: static;
+    top: 0;
+    background-color:burlywood;
+    border: 2px solid brown;
+    text-align: center;
+  }
+  p.f1 {
+    font-size: 30px;
+  }
+  ol.f1 {
+    font-size: 25px;
+  }
+  a {
+    color:black;
+    text-decoration: none;
+  }
+  a.list {
+    color:gray
+  }
+  #active {
+    color:red
+  }
   </style>
 </head>
 
 
 <body>
-  <h1><a href="index.html">it is 공부하는 앱</a></h1>
+  <div class="head"><h1><a id="active" href="index.html">it is 공부하는 앱</a></h1></div>
   <ol class="f1">
-    <li><a href="1.html">공부</a></li>
-    <li><a href="2.html">플래너</a></li>
-    <li><a href="3.html">동기부여</a></li>
+    <li><a class="list" href="1.html">공부</a></li>
+    <li><a class="list" href="2.html">플래너</a></li>
+    <li><a class="list" href="3.html">동기부여</a></li>
   </ol>
   <h2>소개</h2>
   <p class="f1">이것은<strong><u>공부</u>하는앱</strong>입니다</p>
